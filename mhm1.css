@@ -1,0 +1,124 @@
+body {font-family: 'Roboto', serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #778899;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    color: white;}
+@media (max-width: 500px) {body {
+        font-size: 14px;}}
+header {display: flex;
+    background-image: url(https://img.freepik.com/free-photo/strong-man-training-gym_1303-23478.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+@media (max-width: 500px) {header h1 {
+        font-size: 1.7em;
+        letter-spacing: 4px;}}
+#menu {display: none;}
+#menu div {width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;}
+@media (max-width: 500px) {#links {
+        display: none;}}
+@media (max-width: 500px) {#menu {
+       display: block;}}
+header nav {position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+a {cursor: pointer;}
+a.button {font-family: 'Cairo', 'sans-serif';
+        padding: 15px 15px;
+        border-radius: 100px;
+        background-color: white;
+        display: inline-block;
+        color: black;}
+a.button:hover {background-color: #B0C4DE;
+            color: black;}
+#links {font-family: 'Cairo', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;}
+#links amargin: {15px;}
+header::before {content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);}
+@media (max-width: 500px) {header {
+        height: 350px;
+        line-height: 1.2;}}
+#firma {font-size: 40px;
+    color: #7FFFD4;}
+@media (max-width: 500px) {#firma {
+        font-size: 1.5em;}}
+h1 {font-weight: bold;
+    text-align: center;
+    z-index: 1;
+    font-family: 'Dela Gothic One', 'open sans';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 350%;
+    color: #F5FFFA;
+    line-height: 150%;}
+section {display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    text-align: center;}
+@media (max-width: 500px) {section {
+        margin: 40px 10px;}}
+#box {display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;}
+@media (max-width: 500px) {box {
+        margin: 20px 5px;}}
+@media (max-width: 500px) {article {
+        flex-direction: column;}}
+#main {display: flex;
+    height: 200px;}
+#main h1{font-size: 3em;
+        font-weight: normal;}
+@media (max-width: 500px) {#main h1 {
+        font-size: 1.8em;}}
+article {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;}
+h2 {display: inline-block;
+    padding: 40px;}
+h2 a.button {padding: 5px;
+        margin: 15px 10px;
+        letter-spacing: 2px;
+        color: black;
+        text-align: center;}
+@media (max-width: 500px) {h2 {
+        width: 30%;
+        margin-bottom: 3em;}}
+.immagine {padding: 15px 15px;}
+.abbonamenti {font-family: 'New Tegomin','Open Sans';
+    font-size: 1.75em;}
+.istruttori {font-family: 'Open Sans Condensed','Open Sans';
+    font-size: 1.7em;}
+.attrezzi {font-family: 'IBM Plex Sans','Open Sans';
+    font-size: 1.8em;}
+footer {background-color: black;
+    padding: 55px;
+    text-align: center;}   
+footer p {font-size: 20px;}
